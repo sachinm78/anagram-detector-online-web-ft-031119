@@ -7,8 +7,9 @@ class Anagram
     @word = word
   end
   
-  def match 
-    OO Anagram Detector
-    
+  def match(word_list) 
+    word_list.select do |word|
+      (@word.split("").sort) == (word.split("").sort)
+    end
   end
 end
