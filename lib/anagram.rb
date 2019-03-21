@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match 
-    word_list = []
+    OO Anagram Detector
     
   end
 end
